@@ -34,14 +34,24 @@ export default function Page() {
 									type="password"
 									placeholder="password"
 									className="input input-bordered"
-									autoComplete="current-password"
+									autoComplete="new-password"
 								/>
 							</div>
-
+							<div className="form-control">
+								<label className="label">
+									<span className="label-text">Confirm Password</span>
+								</label>
+								<input
+									type="password"
+									placeholder="confirm password"
+									className="input input-bordered"
+									autoComplete="new-password"
+								/>
+							</div>
 							<div className="form-control mt-6">
 								<input
 									type="submit"
-									value="Log In"
+									value="Sign Up"
 									className="btn btn-primary"
 								/>
 							</div>
